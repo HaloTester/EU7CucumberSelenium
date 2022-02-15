@@ -1,3 +1,4 @@
+@smoke
 Feature: Contacts page
 
   Scenario:Default page number
