@@ -54,7 +54,7 @@ public class ContactsStepDef {
         //verify firstname and lastname
         String actualName = new DashboardPage().getUserName();
         String expectedName = userInfo.get("firstname")+" "+userInfo.get("lastname");
-
+        //assertion
         Assert.assertEquals(expectedName,actualName);
     }
 }
