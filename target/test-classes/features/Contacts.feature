@@ -23,6 +23,7 @@ Feature: Contacts page
       | Activities |
       | System     |
 
+
   Scenario: Menu Options Sales Manager
     Given the user logged in as "sales manager"
     Then the user should see following options
@@ -35,6 +36,7 @@ Feature: Contacts page
       | Reports & Segments |
       | System             |
 
+
   Scenario: login as a given user
     Given the user is on the login page
     When the user logs in using following credentials
@@ -43,6 +45,7 @@ Feature: Contacts page
       | firstname | Brenden     |
       | lastname  | Schneider   |
     Then the user should be able to login
+
 
   Scenario Outline: login as a given user <user>
     Given the user is on the login page
