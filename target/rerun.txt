@@ -1,2 +1,0 @@
-file:src/test/resources/features/Login.feature:15
-file:src/test/resources/features/Contacts.feature:4:11:26:38:58:59
