@@ -1,0 +1,31 @@
+-------------------------------------------------------------------------------
+Test set: Contacts page
+-------------------------------------------------------------------------------
+Tests run: 7, Failures: 4, Errors: 2, Skipped: 0, Time elapsed: 82.208 s <<< FAILURE! - in Contacts page
+Default page number(Contacts page)  Time elapsed: 22.169 s  <<< ERROR!
+org.openqa.selenium.NoSuchElementException: 
+no such element: Unable to locate element: {"method":"xpath","selector":"//input[@class='input-widget']"}
+  (Session info: chrome=98.0.4758.82)
+For documentation on this error, please visit: https://selenium.dev/exceptions/#no_such_element
+Build info: version: '4.1.0', revision: '87802e897b'
+System info: host: 'DESKTOP-K7F9B24', ip: '192.168.178.104', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.12'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5ecb43d2aee9687f97f715a6a852a9bd, findElement {using=xpath, value=//input[@class='input-widget']}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 98.0.4758.82, chrome: {chromedriverVersion: 98.0.4758.102 (273bf7ac8c90..., userDataDir: C:\Users\Admin\AppData\Loca...}, goog:chromeOptions: {debuggerAddress: localhost:61527}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:61527/devtoo..., se:cdpVersion: 98.0.4758.82, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 5ecb43d2aee9687f97f715a6a852a9bd
+
+Verify Create Calender Event(Contacts page)  Time elapsed: 27.667 s  <<< FAILURE!
+java.lang.AssertionError
+
+Menu Options Sales Manager(Contacts page)  Time elapsed: 4.212 s  <<< ERROR!
+java.lang.IllegalArgumentException: Keys to send should be a not null CharSequence
+
+login as a given user(Contacts page)  Time elapsed: 6.327 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Brenden Schneider]> but was:<[Ara Ondricka]>
+
+login as a given user user10(Contacts page)  Time elapsed: 6.332 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Brenden Schneider]> but was:<[Ara Ondricka]>
+
+login as a given user storemanager85(Contacts page)  Time elapsed: 6.358 s  <<< FAILURE!
+org.junit.ComparisonFailure: expected:<[Stephan Haley]> but was:<[Pearl Tremaine Wuckert]>
+
